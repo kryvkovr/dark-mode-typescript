@@ -1,26 +1,26 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { useState } from 'react'
+import logo from './logo.svg'
+import './App.css'
+import { Grid, Typography, Button, Paper } from '@mui/material';
 
 function App() {
+  const [count, setCount] = useState(0)
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <Paper style={{ height: "100vh" }}>
+      <Grid container direction="column">
+        <Typography variant="h1">THis is my App</Typography>
+      </Grid>
+
+      <Button variant="contained" color="primary">
+        First button
+      </Button>
+
+      <Button variant="contained" color="secondary">
+        Second
+      </Button>
+    </Paper>
+  )
 }
 
-export default App;
+export default App
