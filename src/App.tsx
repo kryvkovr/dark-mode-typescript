@@ -7,9 +7,10 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <Paper style={{ height: "100vh" }}>
+    // <Paper style={{ height: "100vh"}}>
+    <div>
       <Grid container direction="column">
-        <Typography variant="h1">Version 3</Typography>
+        <Typography variant="h1">Version 4</Typography>
       </Grid>
 
       <Button variant="contained" color="primary">
@@ -19,7 +20,8 @@ function App() {
       <Button variant="contained" color="secondary">
         Second
       </Button>
-    </Paper>
+   
+    </div >
   )
 }
 
