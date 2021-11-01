@@ -60,7 +60,7 @@ function App() {
       {/* <Paper style={{ height: "100vh" }}> */}
 
         <Grid container direction="column">
-          <Typography variant="h1">Version 5</Typography>
+          <Typography variant="h1">Version 7</Typography>
         </Grid>
 
         <Button variant="contained" color="primary">
