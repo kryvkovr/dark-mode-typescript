@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.bees.consumermobile.europe",
+    "sha256_cert_fingerprints":
+    ["58:75:BA:7D:9E:DE:FB:34:97:4A:AF:F9:B6:5A:F7:70:32:15:0C:AE:E7:84:67:B7:2D:A3:9D:41:E7:15:CF:AF"]
+  }
+}]
