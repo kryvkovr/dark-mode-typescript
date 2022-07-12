@@ -15,7 +15,8 @@ function App() {
       <Button variant="contained" color="primary">
         First button
       </Button>
-      <a href='https://apps.apple.com/app/capsigo/id1547746310'>Download</a>
+      <a href='https://apps.apple.com/app/capsigo/id1547746310'>Download IOS</a>
+      <a href='https://play.google.com/store/apps/details?id=ua.gov.diia.app'>Download GOOGLE</a>
 
       {/* <Button variant="contained" color="secondary">
         Second
